@@ -1,0 +1,5 @@
+    $endmonth = $_REQUEST['endmonth'];
+   $endday = $_REQUEST['endday'];
+   $endyear = $_REQUEST['endyear'];
+   $dbenddate= "$endyear-$endmonth-$endday";
+   $enddate = "$endmonth/$endday/$endyear";
